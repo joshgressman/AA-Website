@@ -1,6 +1,10 @@
 /* Custom Styles */
 
-.mySlides {display:none;}
+.mySlides {
+    display:none;
+    
+}
+
 
 #main {
     display: none;
@@ -39,7 +43,7 @@
 
 footer {
     margin-top: 100px;
-    background-color: gray;
+    background-color: #222;
     height: 200px;
     color: rgb(13, 103, 202);
     
@@ -63,6 +67,15 @@ footer {
 #wire-rope-items h5{
     color: rgb(13, 103, 202); 
 }
+
+.product-heading {
+    color: rgb(13, 103, 202);   
+}
+
+#bottom-info-head {
+    color: rgb(13, 103, 202);    
+}
+
 
 /**************************** MEDIA QUERIES  *********************************/
 
@@ -203,6 +216,10 @@ iPad 3
     padding-top: 50px;
 }
 
+.product-div {
+    height: 120px;
+}
+
 
 }
 
@@ -262,6 +279,10 @@ iPad 3
 
   #wire-rope-info {
       padding-top: 50px;
+  }
+
+  .product-div {
+      height: 120px;
   }
 
 }
